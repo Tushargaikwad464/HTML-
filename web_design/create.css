@@ -1,0 +1,92 @@
+* {
+    background-image: linear-gradient(to right bottom, #de7320, #c78402, #ac9200, #8f9d19, #70a637, #72a435, #73a134, #759f32, #939116, #ad800d, #c16d1f, #cf5837);
+}
+
+h1 {
+    width: 600px;
+    height: 35px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    background-color: orange;
+    width: 600px;
+    height: 35px;
+    color: white;
+    text-align: center;
+}
+
+.one {
+    position: fixed;
+    top: 120px;
+    max-width: 300px;
+    margin: 30px;
+    text-align: center;
+    right: 150px;
+    color: black;
+    background-color: cyan;
+}
+
+.form input {
+    outline: none;
+}
+
+.one input[type=text] {
+    width: 200px;
+    padding: 12px;
+    border-radius: 30px;
+    border: 10px soild yellow;
+    margin-bottom: 15px;
+}
+
+.one input[type=date] {
+    width: 200px;
+    padding: 12px;
+    border-radius: 30px;
+    border: 10px soild yellow;
+    margin-bottom: 15px;
+}
+
+.one input[type=number] {
+    width: 200px;
+    padding: 12px;
+    border-radius: 30px;
+    border: 10px soild yellow;
+    margin-bottom: 15px;
+}
+
+.one input[type=password] {
+    width: 200px;
+    padding: 12px;
+    border-radius: 30px;
+    border: 10px soild yellow;
+    margin-bottom: 15px;
+}
+
+.one input[type=submit] {
+    display: inline-block;
+    border: none;
+    min-width: 210px;
+    padding: 12px;
+    margin: 20px;
+    background: orangered;
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.left-section {
+    width: 550px;
+    float: left;
+    height: 540px;
+    position: relative;
+    background: url(img.png);
+    background-size: cover;
+    background-position: 570px auto;
+}
